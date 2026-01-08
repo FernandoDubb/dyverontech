@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dyveron Tech | Diseño web que vende</title>
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-flex">
+    <h1 class="logo">Dyveron<span>Tech</span></h1>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#marca">Nosotros</a>
+      <a href="#contacto" class="nav-btn">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="assets/video/hero-bg.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <span class="badge">Agencia Digital</span>
+      <h2>
+        Tu negocio merece<br>
+        <span>verse profesional</span>
+      </h2>
+      <p>
+        Diseñamos sitios web, catálogos y marcas digitales
+        que generan confianza y convierten visitas en clientes.
+      </p>
+      <a href="#servicios" class="btn">Ver servicios</a>
+    </div>
+
+    <div class="hero-img">
+      <img src="assets/img/logo-dyveron.jpg" alt="Dyveron Tech">
+    </div>
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<section id="servicios" class="productos fade-up">
+  <div class="container">
+    <h2 class="section-title fade-up">Servicios profesionales</h2>
+
+    <div class="grid-productos">
+      <div class="card fade-up">
+        <img src="assets/img/service-web.jpg" alt="Landing Page">
+        <div class="card-overlay">
+          <h3>Landing Page</h3>
+          <p>Ideal para vender un servicio o producto.</p>
+          <span>Desde $150</span>
+          <button class="comprar-btn"
+            data-producto="Landing Page Profesional"
+            data-precio="150">
+            Cotizar
+          </button>
+        </div>
+      </div>
+
+      <div class="card fade-up">
+        <img src="assets/img/service-catalogo.jpg" alt="Catálogo Digital">
+        <div class="card-overlay">
+          <h3>Catálogo Digital</h3>
+          <p>Muestra tus productos de forma profesional.</p>
+          <span>Desde $200</span>
+          <button class="comprar-btn"
+            data-producto="Catálogo Digital"
+            data-precio="200">
+            Cotizar
+          </button>
+        </div>
+      </div>
+
+      <div class="card fade-up">
+        <img src="assets/img/service-branding.jpg" alt="Branding">
+        <div class="card-overlay">
+          <h3>Branding & Logos</h3>
+          <p>Identidad visual que transmite confianza.</p>
+          <span>Desde $100</span>
+          <button class="comprar-btn"
+            data-producto="Branding y Diseño de Logo"
+            data-precio="100">
+            Cotizar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<section id="marca" class="marca fade-up">
+  <div class="container marca-grid">
+    <div class="marca-text">
+      <h2>¿Por qué Dyveron Tech?</h2>
+      <p>
+  Dyveron Tech nace con una idea clara: ayudar a jóvenes emprendedores
+  a convertir sus ideas en proyectos digitales reales y profesionales.
+  Sabemos lo difícil que es empezar, porque nosotros también empezamos desde cero.
+  </p>
+
+  <p>
+  Creamos páginas web, banners digitales y estilos visuales únicos
+  que hacen que una marca se vea seria, moderna y confiable,
+  sin perder su esencia.
+  </p>
+
+   <p>
+    Hoy Dyveron Tech es un proyecto independiente,
+    pero con una visión grande:
+    crecer, innovar y convertirnos en una empresa tecnológica
+    que impulse ideas nuevas y negocios con futuro.
+    </p>
+    </div>
+
+    <ul class="beneficios">
+      <li><img src="assets/img/design.jpg" alt=""> Diseño profesional</li>
+      <li><img src="assets/img/ux.jpg" alt=""> Experiencia de usuario real</li>
+      <li><img src="assets/img/commerce.jpg" alt=""> Enfoque comercial</li>
+      <li><img src="assets/img/support.jpg" alt=""> Soporte y escalabilidad</li>
+    </ul>
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<section id="contacto" class="contacto fade-up">
+  <div class="container">
+    <h2>Contacto</h2>
+    <p>Cuéntanos tu idea y hagámosla realidad</p>
+
+    <div class="contact-buttons">
+     <a href="https://wa.me/50432591982?text=Hola%20quiero%20cotizar%20un%20sitio%20web"
+     target="_blank" class="btn">
+     WhatsApp
+     </a>
+
+      <a href="https://instagram.com/dyverontech" target="_blank" class="btn-outline">
+        Instagram
+      </a>
+    </div>
+
+    <form id="contact-form" class="contact-form fade-up">
+      <input type="text" id="nombre" placeholder="Tu nombre" required>
+      <input type="email" id="email" placeholder="Tu correo" required>
+      <textarea id="mensaje" placeholder="Cuéntanos tu idea" required></textarea>
+      <button type="submit" class="btn">Enviar mensaje</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer fade-up">
+  © 2025 Dyveron Tech — Diseño digital que vende
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
